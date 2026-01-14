@@ -1,0 +1,16 @@
+stages:
+  prepare:
+    cmd: python3 src/data/prepare_data.py
+    deps:
+      - src/data/prepare_data.py
+      - data/raw/default.csv
+    outs:
+      - data/processed/clean_data.csv
+
+  train:
+    cmd: python3 src/models/train.py
+    deps:
+      - src/models/train.py
+      - data/processed/clean_data.csv
+    outs:
+      - models/model.pkl

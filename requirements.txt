@@ -1,9 +1,5 @@
 pandas
 numpy
 scikit-learn
-pandera
+matplotlib
 mlflow
-dvc
-fastapi
-uvicorn
-pytest
