@@ -44,6 +44,7 @@ pd-mlops-pipeline/
 ├── dvc.yaml                     # DVC pipeline
 ├── requirements.txt
 ├── README.md
+```
 
 ## Используемые технологии
 	•	Python 3.12
